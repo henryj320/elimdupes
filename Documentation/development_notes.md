@@ -1,6 +1,6 @@
 # elimdupes
 
-Last update: 2023-11-21 23:15
+Last update: 2023-12-14 14:28
 <br><br>
 
 ## Development Notes for elimdupes
@@ -21,3 +21,7 @@ Last update: 2023-11-21 23:15
         - Add toggle switches for "Delete?", "List?" (disabled), "Verbose output"
         - Output a log of the number of duplicates in the frontend.
 3. Created the initial files and folders.
+4. Wrote ` list_by_filename() `
+5. Wrote ` convert_to_tree() `
+    - Had to adapt ` print(self._reader.encode("utf-8")) ` to ` print(self._reader) ` in *tree.py* of treelib.
+    - So that it outputs the tree correctly.
